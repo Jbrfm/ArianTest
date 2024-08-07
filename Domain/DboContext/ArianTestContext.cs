@@ -29,10 +29,7 @@ public partial class ArianTestContext : DbContext
             entity.HasKey(e => e.CommentId).HasName("PK__Comments__E7957687B397B9C2");
 
             entity.Property(e => e.CommentId).HasColumnName("comment_id");
-            entity.Property(e => e.Content)
-                .IsRequired()
-                .HasColumnType("text")
-                .HasColumnName("content");
+            entity.Property(e => e.Content).HasColumnName("content");
             entity.Property(e => e.PostId).HasColumnName("post_id");
             entity.Property(e => e.UserId).HasColumnName("user_id");
 
@@ -50,10 +47,7 @@ public partial class ArianTestContext : DbContext
             entity.HasKey(e => e.PostId).HasName("PK__Posts__3ED78766D2345D9D");
 
             entity.Property(e => e.PostId).HasColumnName("post_id");
-            entity.Property(e => e.Content)
-                .IsRequired()
-                .HasColumnType("text")
-                .HasColumnName("content");
+            entity.Property(e => e.Content).HasColumnName("content");
             entity.Property(e => e.ImageUrl)
                 .HasMaxLength(255)
                 .IsUnicode(false)
@@ -76,10 +70,7 @@ public partial class ArianTestContext : DbContext
 
             entity.Property(e => e.ReplyId).HasColumnName("reply_id");
             entity.Property(e => e.CommentId).HasColumnName("comment_id");
-            entity.Property(e => e.Content)
-                .IsRequired()
-                .HasColumnType("text")
-                .HasColumnName("content");
+            entity.Property(e => e.Content).HasColumnName("content");
             entity.Property(e => e.UserId).HasColumnName("user_id");
 
             entity.HasOne(d => d.Comment).WithMany(p => p.Replies)
