@@ -1,0 +1,6 @@
+@ArianTestOnion_HostAddress = http://localhost:5270
+
+GET {{ArianTestOnion_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

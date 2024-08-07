@@ -1,0 +1,12 @@
+D:\Arian\ArianTestOnion\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\Arian\ArianTestOnion\Domain\bin\Debug\net8.0\Domain.dll
+D:\Arian\ArianTestOnion\Domain\bin\Debug\net8.0\Domain.pdb
+D:\Arian\ArianTestOnion\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+D:\Arian\ArianTestOnion\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arian\ArianTestOnion\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\Arian\ArianTestOnion\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\Arian\ArianTestOnion\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\Arian\ArianTestOnion\Domain\obj\Debug\net8.0\Domain.dll
+D:\Arian\ArianTestOnion\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\Arian\ArianTestOnion\Domain\obj\Debug\net8.0\Domain.pdb
+D:\Arian\ArianTestOnion\Domain\obj\Debug\net8.0\ref\Domain.dll
